@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClassroomServiceTest {
+class ClassroomServiceTest {
     private ClassroomService classroomService;
 
     @BeforeEach
@@ -17,7 +17,7 @@ public class ClassroomServiceTest {
     }
 
     @Test
-    public void testStartClass() {
+    void testStartClass() {
     
         Teacher teacher = new Teacher("Ari");
         Subject subject = new Subject("Math");
