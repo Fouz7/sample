@@ -19,11 +19,13 @@ public class ClassroomServiceTest {
     @Test
     public void testStartClass() {
     
-        Teacher teacher = new Teacher("John Doe");
+        Teacher teacher = new Teacher("Ari");
         Subject subject = new Subject("Math");
         List<Student> students = new ArrayList<>();
-        students.add(new Student("Alice"));
-        students.add(new Student("Bob"));
+        students.add(new Student("Budi"));
+        students.add(new Student("Caca"));
+        students.add(new Student("Deni"));
+        students.add(new Student("Elis"));
 
         Classroom classroom = classroomService.startClass(teacher, subject, students);
 
